@@ -5,7 +5,7 @@ namespace common\Helper;
 class ArrayHelper
 {
 
-    function balance(string $a, string $b, array $replacements = [
+    public static function balance(string $a, string $b, array $replacements = [
         '?' => 3,
         '!' => 2
     ]): string
